@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <form class="row g-3">
+            <div class="col-lg-3">
+                <label for="firstnameinput" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstnameinput">
+                <p id="wrongalert1" class="fw-bold text-danger"></p>
+            </div>
+            <div class="col-lg-3">
+                <label for="lastnameinput" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastnameinput">
+                <p id="wrongalert2" class="fw-bold text-danger"></p>
+            </div>
+            <div class="col-lg-3">
+                <label for="emailinput" class="form-label">Email</label>
+                <div class="input-group">
+                    <span class="input-group-text">@</span>
+                    <input id="emailinput" type="text" class="form-control">
+                </div>
+                <p id="wrongalert3" class="fw-bold text-danger"></p>
+            </div>
+            <div class="col-lg-3">
+                <label for="passwordinput" class="form-label">Password</label>
+                <input type="text" class="form-control" id="passwordinput">
+                <p id="wrongalert4" class="fw-bold text-danger"></p>
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+                <button class="btn btn-primary" type="button">Submit form</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
